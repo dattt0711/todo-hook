@@ -71,6 +71,7 @@ function TodoFeature(props) {
         // update todolist, id and clear input
         setTodoList(newTodoList);
         setTodoInput('');
+        setId(prev=>prev+1);
     }
         
     //handle remove
