@@ -16,8 +16,8 @@ function App(props) {
   return (
     <div className="wrapper">
          <div className="App">
-          {show || <Form isLogin={isLogin}></Form>}
-          {show && <TodoFeature/>}
+          {/* {show || <Form isLogin={isLogin}></Form>} */}
+          <TodoFeature/>
          </div>
          </div>
   );
